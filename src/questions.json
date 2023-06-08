@@ -1,0 +1,50 @@
+[
+  {
+    "id": "C1abcd",
+    "name": "React",
+    "questions": [
+      {
+        "id": "R1abcde",
+        "question": "Qu'est-ce que React ?",
+        "answer": "React est comme le café pour les développeurs : une fois que tu l'essayes, tu ne peux plus t'en passer ! C'est une bibliothèque JavaScript pour la construction d'interfaces utilisateur. Et oui, ça a le pouvoir de te rendre accro !"
+      },
+      {
+        "id": "R2fghij",
+        "question": "Quelle est la différence entre React et React Native ?",
+        "answer": "Eh bien, React c'est comme manger une pizza entière, tandis que React Native c'est comme en manger une part. React est utilisé pour construire des applications web, tandis que React Native est utilisé pour construire des applications mobiles. En d'autres termes, React Native, c'est React en version mobile, une petite portion de bonheur à emporter partout avec toi !"
+      }
+    ]
+  },
+  {
+    "id": "C2efgh",
+    "name": "Node.js",
+    "questions": [
+      {
+        "id": "N1ijklm",
+        "question": "Qu'est-ce que Node.js ?",
+        "answer": "Ah, Node.js... C'est comme un super-héros pour les développeurs ! Il permet d'exécuter du code JavaScript côté serveur et de construire des applications web rapides et évolutives. Il est tellement puissant qu'on pourrait croire qu'il a des super-pouvoirs !"
+      },
+      {
+        "id": "N2nopqr",
+        "question": "Quels sont les superpouvoirs d'un développeur full stack React / Node.js ?",
+        "answer": "Un développeur full stack React / Node.js a le pouvoir de construire des applications web incroyables, rapides et réactives. Il peut jongler avec les composants front-end et gérer la logique back-end comme un véritable super-héros du code !"
+      }
+    ]
+  },
+  {
+    "id": "C3stuvw",
+    "name": "Git",
+    "questions": [
+      {
+        "id": "G1xyzab",
+        "question": "Qu'est-ce que Git ?",
+        "answer": "Git, c'est un peu comme un cerveau externe pour les développeurs. C'est un système de contrôle de version qui permet de suivre les modifications apportées au code source d'un projet. Avec Git, tu peux revenir en arrière, fusionner des branches et collaborer efficacement avec d'autres développeurs. En d'autres termes, c'est ton meilleur ami quand il s'agit de gérer ton code !"
+      },
+      {
+        "id": "G2cdefg",
+        "question": "Quelle est la différence entre Git et GitHub ?",
+        "answer": "Git, c'est comme ton cerveau externe personnel, tandis que GitHub, c'est comme ta mémoire collective en ligne. Git est un système de contrôle de version, tandis que GitHub est une plateforme d'hébergement de code basée sur Git. GitHub te permet de partager ton code, collaborer avec d'autres développeurs et profiter de fonctionnalités pratiques comme les demandes de fusion. En résumé, Git c'est l'outil et GitHub c'est le lieu où tu peux montrer tes talents de développeur au monde entier !"
+      }
+    ]
+  }
+]
