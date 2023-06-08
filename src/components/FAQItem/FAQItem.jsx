@@ -15,7 +15,7 @@ const FAQItem = ({ item }) => {
     <div className={s.container}>
       <div onClick={handleClick} className={s.question}>
         <span>{question}</span>
-        <img className={s.image} src={active ? close : open} />
+        <img className={s.image} src={active ? close : open} alt="" />
       </div>
       {active && <div className={s.answer}>{answer}</div>}
     </div>
