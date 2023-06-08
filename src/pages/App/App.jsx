@@ -1,4 +1,4 @@
-import s from "./App.module.css";
+// import s from "./App.module.css";
 
 import Datas from "../../questions.json";
 import FAQCat from "../../components/FAQCat/FAQCat";
