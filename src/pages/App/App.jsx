@@ -13,12 +13,13 @@ function App() {
 
   return (
     <div className={s.app}>
-      <h1>Ma superbe FAQ</h1>
+      <h1 className={s.title}>Ma superbe FAQ</h1>
       <div className={s.container}>
         <div className={s.aside}>
-          <span>Un style de question en particulier ?</span>
           <span
-            className={s.cat_button}
+            className={`${s.cat_button} + ${
+              category === "All" && s.cat_active
+            }`}
             onClick={() => {
               setCategory("All");
             }}
@@ -29,7 +30,9 @@ function App() {
             return (
               <span
                 key={cat + "btn"}
-                className={s.cat_button}
+                className={`${s.cat_button} + ${
+                  category === cat && s.cat_active
+                }`}
                 onClick={() => {
                   setCategory(cat);
                 }}

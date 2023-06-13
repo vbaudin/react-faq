@@ -1,18 +1,25 @@
 .container {
   margin: 12px;
-  padding: 10px;
-  border-bottom: 1px black solid;
+  padding: 30px;
+  background: #ffece2;
+  border-radius: 40px;
 }
 .question {
-  font-size: 18px;
-  font-weight: bold;
+  font-family: "eigerdals", sans-serif;
+  font-style: normal;
+  font-weight: 900;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .answer {
   margin-top: 20px;
+  font-family: "eigerdals", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
 }
+
 .image {
   width: 20px;
   height: 20px;
