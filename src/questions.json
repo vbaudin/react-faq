@@ -12,6 +12,11 @@
         "id": "R2fghij",
         "question": "Quelle est la différence entre React et React Native ?",
         "answer": "Eh bien, React c'est comme manger une pizza entière, tandis que React Native c'est comme en manger une part. React est utilisé pour construire des applications web, tandis que React Native est utilisé pour construire des applications mobiles. En d'autres termes, React Native, c'est React en version mobile, une petite portion de bonheur à emporter partout avec toi !"
+      },
+      {
+        "id": "R3klmnop",
+        "question": "Qu'est-ce que le JSX en React ?",
+        "answer": "Le JSX en React, c'est comme parler une langue secrète que seuls les développeurs peuvent comprendre ! C'est une extension de syntaxe qui permet d'écrire du code HTML et JavaScript en même temps. Grâce au JSX, tu peux créer des composants React de manière plus intuitive et expressive. C'est un peu comme si tu avais un super-pouvoir linguistique dans ton arsenal de développement !"
       }
     ]
   },
@@ -28,22 +33,74 @@
         "id": "N2nopqr",
         "question": "Quels sont les superpouvoirs d'un développeur full stack React / Node.js ?",
         "answer": "Un développeur full stack React / Node.js a le pouvoir de construire des applications web incroyables, rapides et réactives. Il peut jongler avec les composants front-end et gérer la logique back-end comme un véritable super-héros du code !"
+      },
+      {
+        "id": "N3stuvw",
+        "question": "Qu'est-ce que le gestionnaire de paquets NPM en Node.js ?",
+        "answer": "NPM, c'est comme ta boîte à outils magique en Node.js ! C'est un gestionnaire de paquets qui te permet d'installer, de gérer et de partager des bibliothèques de code JavaScript. Avec NPM, tu peux facilement intégrer des fonctionnalités prêtes à l'emploi dans tes projets Node.js et gagner du temps de développement. C'est un peu comme si tu avais un assistant personnel pour te fournir tout ce dont tu asbesoin en un seul endroit !"
       }
     ]
   },
   {
     "id": "C3stuvw",
-    "name": "<Git />",
+    "name": "<HTML CSS />",
     "questions": [
       {
-        "id": "G1xyzab",
-        "question": "Qu'est-ce que Git ?",
-        "answer": "Git, c'est un peu comme un cerveau externe pour les développeurs. C'est un système de contrôle de version qui permet de suivre les modifications apportées au code source d'un projet. Avec Git, tu peux revenir en arrière, fusionner des branches et collaborer efficacement avec d'autres développeurs. En d'autres termes, c'est ton meilleur ami quand il s'agit de gérer ton code !"
+        "id": "H1ijklm",
+        "question": "Qu'est-ce que HTML ?",
+        "answer": "HTML, c'est comme les fondations solides d'une maison pour les développeurs web ! C'est le langage de balisage utilisé pour structurer le contenu d'une page web. Avec HTML, tu peux créer des éléments tels que des titres, des paragraphes, des images et des liens pour donner vie à ton site web."
       },
       {
-        "id": "G2cdefg",
-        "question": "Quelle est la différence entre Git et GitHub ?",
-        "answer": "Git, c'est comme ton cerveau externe personnel, tandis que GitHub, c'est comme ta mémoire collective en ligne. Git est un système de contrôle de version, tandis que GitHub est une plateforme d'hébergement de code basée sur Git. GitHub te permet de partager ton code, collaborer avec d'autres développeurs et profiter de fonctionnalités pratiques comme les demandes de fusion. En résumé, Git c'est l'outil et GitHub c'est le lieu où tu peux montrer tes talents de développeur au monde entier !"
+        "id": "H2nopqr",
+        "question": "Qu'est-ce que CSS ?",
+        "answer": "CSS, c'est comme l'artiste qui donne vie aux pages web ! C'est le langage de style utilisé pour définir l'apparence et la mise en page d'une page web. Avec CSS, tu peux jouer avec les couleurs, les polices, les marges et bien plus encore pour rendre ton site web magnifique et attrayant."
+      },
+      {
+        "id": "H3stuvw",
+        "question": "Quelle est la différence entre id et class en CSS ?",
+        "answer": "Ah, la différence entre id et class en CSS, c'est comme choisir entre porter une tenue unique ou faire partie d'un groupe stylé ! L'attribut id est utilisé pour cibler un élément unique sur une page, tandis que l'attribut class est utilisé pour cibler un groupe d'éléments ayant une caractéristique commune. En d'autres termes, l'id est comme ton nom propre, tandis que la classe est comme ton surnom tendance."
+      }
+    ]
+  },
+  {
+    "id": "C4xyzab",
+    "name": "<JavaScript />",
+    "questions": [
+      {
+        "id": "J1cdefg",
+        "question": "Qu'est-ce que JavaScript ?",
+        "answer": "JavaScript, c'est comme la baguette magique du développement web ! C'est un langage de programmation qui te permet d'ajouter de l'interactivité et des fonctionnalités dynamiques à tes sites web. Avec JavaScript, tu peux manipuler le contenu, réagir aux actions de l'utilisateur et bien plus encore. C'est un peu comme si tu avais le pouvoir de donner vie à tes pages web !"
+      },
+      {
+        "id": "J2hijkl",
+        "question": "Qu'est-ce que l'AJAX en JavaScript ?",
+        "answer": "L'AJAX en JavaScript, c'est comme un coursier qui apporte des informations fraîches à tes pages web sans recharger la page entière ! C'est une technique qui te permet de communiquer avec le serveur en arrière-plan et de mettre à jour le contenu d'une page en temps réel. Avec l'AJAX, tu peux offrir une expérience utilisateur fluide et réactive."
+      },
+      {
+        "id": "J3mnopq",
+        "question": "Qu'est-ce que l'ES6 en JavaScript ?",
+        "answer": "L'ES6 en JavaScript, c'est comme une mise à jour majeure de ton langage préféré avec de nouvelles fonctionnalités et des raccourcis pratiques ! L'ES6, également connu sous le nom d'ECMAScript 2015,introduit de nouvelles syntaxes et fonctionnalités puissantes à JavaScript. Avec l'ES6, tu peux utiliser des fonctions fléchées, des classes, des modules, la déstructuration, les promesses et bien plus encore. C'est comme si tu passais d'une vieille voiture à une voiture de course ultramoderne, prête à te propulser vers de nouveaux horizons de développement web !"
+      }
+    ]
+  },
+  {
+    "id": "C5cdefg",
+    "name": "<WordPress />",
+    "questions": [
+      {
+        "id": "W1hijkl",
+        "question": "Qu'est-ce que WordPress ?",
+        "answer": "WordPress, c'est comme une plateforme de construction de sites web prête à l'emploi pour les développeurs non techniques ! C'est un système de gestion de contenu (CMS) populaire qui te permet de créer et de gérer facilement des sites web sans avoir à coder de A à Z. Avec WordPress, tu peux personnaliser des thèmes, ajouter des plugins et publier du contenu en un clin d'œil."
+      },
+      {
+        "id": "W2mnopq",
+        "question": "Quels sont les avantages de WordPress pour les développeurs web ?",
+        "answer": "WordPress offre une multitude d'avantages pour les développeurs web. Tout d'abord, il est facile à prendre en main grâce à son interface conviviale. Ensuite, il dispose d'une vaste bibliothèque de thèmes et de plugins pour étendre les fonctionnalités de ton site. De plus, il bénéficie d'une communauté active qui propose des ressources et des solutions. Enfin, WordPress est optimisé pour le référencement et offre des fonctionnalités de sécurité robustes. En résumé, WordPress est un outil puissant pour développer des sites web rapidement et efficacement."
+      },
+      {
+        "id": "W3qrstuv",
+        "question": "Qu'est-ce que le thème et les plugins en WordPress ?",
+        "answer": "En WordPress, le thème est comme la tenue que porte ton site web, il détermine son apparence et sa mise en page. Les plugins, quant à eux, sont comme les gadgets que tu ajoutes à ta tenue pour lui donner des fonctionnalités supplémentaires. Tu peux utiliser des plugins pour ajouter des formulaires, des galeries d'images, des fonctionnalités de commerce électronique, etc. Avec WordPress, tu as le pouvoir de personnaliser ton site selon tes besoins et tes envies !"
       }
     ]
   }

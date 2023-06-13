@@ -1,6 +1,14 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .app {
   display: flex;
   flex-direction: column;
+  max-width: 1200px;
+  width: 100%;
 }
 
 .title {
@@ -10,7 +18,8 @@
   font-size: 64px;
   line-height: 76px;
   text-align: center;
-  margin-bottom: 0;
+  margin-top: 250px;
+  margin-bottom: 25px;
 }
 
 .subtitle {
@@ -20,6 +29,8 @@
   font-size: 26px;
   line-height: 31px;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 100px;
 }
 
 .container {
@@ -32,13 +43,13 @@
   flex-direction: column;
   flex: 1;
   row-gap: 10px;
-  padding: 5px;
 }
 
 .content {
   display: flex;
   flex-direction: column;
   flex: 4;
+  row-gap: 25px;
 }
 
 .cat_button {
@@ -56,6 +67,7 @@
 }
 
 .cat_active {
-  background: #92a7ba;
-  border-color: #92a7ba;
+  background: #e7f4ff;
+  border-color: #e7f4ff;
+  color: #091111;
 }
