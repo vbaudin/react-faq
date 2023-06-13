@@ -27,7 +27,7 @@
     -->
     <title>React App</title>
   </head>
-  <body style="background: #ffffff">
+  <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -41,4 +41,25 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <style>
+    body {
+      background: #ffffff;
+      margin: 0;
+      background-image: url("./assets/back-top-left.png");
+      background-repeat: no-repeat;
+      background-size: auto;
+      background-position: top left;
+
+      overflow-y: auto;
+
+      /* hide scrollbar for IE, Edge and Firefox */
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    /* hide scrollbar for chrome, safari and opera */
+    body::-webkit-scrollbar {
+      display: none;
+    }
+  </style>
 </html>

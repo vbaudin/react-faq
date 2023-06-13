@@ -1,7 +1,7 @@
 [
   {
     "id": "C1abcd",
-    "name": "React",
+    "name": "<React />",
     "questions": [
       {
         "id": "R1abcde",
@@ -17,7 +17,7 @@
   },
   {
     "id": "C2efgh",
-    "name": "Node.js",
+    "name": "<Node.js />",
     "questions": [
       {
         "id": "N1ijklm",
@@ -33,7 +33,7 @@
   },
   {
     "id": "C3stuvw",
-    "name": "Git",
+    "name": "<Git />",
     "questions": [
       {
         "id": "G1xyzab",

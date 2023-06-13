@@ -10,6 +10,16 @@
   font-size: 64px;
   line-height: 76px;
   text-align: center;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  font-family: "eigerdals", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
 }
 
 .container {
@@ -22,6 +32,7 @@
   flex-direction: column;
   flex: 1;
   row-gap: 10px;
+  padding: 5px;
 }
 
 .content {
@@ -31,6 +42,7 @@
 }
 
 .cat_button {
+  background: #fc7c3f;
   width: 80%;
   padding: 10px;
   border: 2px #091111 solid;
@@ -41,12 +53,9 @@
   font-family: "eigerdals", sans-serif;
   font-style: normal;
   font-weight: 900;
-  text-shadow: -2px -2px 0 #091111, 0 -2px 0 #091111, 2px -2px 0 #091111,
-    2px 0 0 #091111, 2px 2px 0 #091111, 0 2px 0 #091111, -2px 2px 0 #091111,
-    -2px 0 0 #091111;
 }
 
 .cat_active {
-  background: #fc7c3f;
-  color: white;
+  background: #92a7ba;
+  border-color: #92a7ba;
 }

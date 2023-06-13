@@ -1,0 +1,37 @@
+.container {
+  background-color: white;
+  padding: 12px 50px 18px 50px;
+  border-bottom: 2px solid #091111;
+  display: flex;
+}
+
+.box {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.menu {
+  color: #091111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 50px;
+  font-family: "eigerdals", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.socials {
+  margin-left: auto;
+  column-gap: 25px;
+  display: flex;
+  align-items: center;
+}

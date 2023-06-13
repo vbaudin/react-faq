@@ -5,26 +5,29 @@ import s from "./App.module.css";
 
 import Datas from "../../questions.json";
 import FAQCat from "../../components/FAQCat/FAQCat";
+import Header from "../../components/Header/Header";
 
 function App() {
-  const [category, setCategory] = useState("All");
+  const [category, setCategory] = useState("<All />");
 
   const categories = R.map(({ name }) => name, Datas);
 
   return (
     <div className={s.app}>
-      <h1 className={s.title}>Ma superbe FAQ</h1>
+      <Header />
+      <h1 className={s.title}>Besoin de code clair ?</h1>
+      <h2 className={s.subtitle}>Interrogez-moi avec les bonnes balises !</h2>
       <div className={s.container}>
         <div className={s.aside}>
           <span
             className={`${s.cat_button} + ${
-              category === "All" && s.cat_active
+              category === "<All />" && s.cat_active
             }`}
             onClick={() => {
-              setCategory("All");
+              setCategory("<All />");
             }}
           >
-            All
+            {"<All />"}
           </span>
           {R.map((cat) => {
             return (
